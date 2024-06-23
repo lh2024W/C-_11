@@ -270,9 +270,9 @@ namespace C__11
             var g = new Group();
             Student s = new Student();
             s = new Student("Федор", "Иванович", "Аврамов", "10.05.1999", "г.Одесса", "04825546", 9, 9, 8);
-            s.AddStudent(s);
+            g.AddStudent(s);
             Student s1 = new Student("Аркадий", "Борисович", "Максименко", "20.10.2001", "г.Николаев", "09765225445", 10, 9, 12);
-            s1.AddStudent(s1);
+            g.AddStudent(s1);
 
             foreach (Student student in g)
             {
